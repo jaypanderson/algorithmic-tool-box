@@ -30,7 +30,6 @@ def max_pairwise_product_n(numbers: list[int]) -> int:
     return first * second
 
 
-
 if __name__ == '__main__':
     _ = int(input())
     input_numbers = list(map(int, input().split()))
