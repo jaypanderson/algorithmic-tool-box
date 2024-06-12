@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7377a7-4aec-4bf2-bf2d-14f503ee034a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../algorithmic-tool-box/aplusb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../algorithmic-tool-box/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../algorithmic-tool-box/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../algorithmic-tool-box/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../algorithmic-tool-box/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../algorithmic-tool-box" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -35,12 +36,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Ryan/PycharmProjects/work_projects/main.py"
+    "last_opened_file_path": "C:/Users/Ryan/PycharmProjects"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ryan\PycharmProjects\work_projects\venv\transfer_meal_schedule\algorithmic-tool-box" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan\PycharmProjects" />
     </key>
   </component>
   <component name="SharedIndexes">
