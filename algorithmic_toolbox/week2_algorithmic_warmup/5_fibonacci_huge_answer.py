@@ -1,3 +1,10 @@
+"""
+this function and the following functions use the fact that there are repeating remainder patterns this pattern is called
+pisano period. the cycle restarts when the remainder is 0 and then 1 on the next one.  using this we can calculate the
+modulo of huge fibonacci numbers. we can reduce it to the cycle length and then figure out what the last number is.
+
+"""
+
 def fibonacci_huge_naive(n, m):
     if n <= 1:
         return n
