@@ -3,10 +3,21 @@ def fibonacci_huge_naive(n, m):
         return n
 
     previous = 0
-    current  = 1
+    current = 1
+    period = 0
+
+    for _ in range(m**2):
+        previous, current = current, (previous + current)
+        period += 1
+        if previous % m == 0 and current % m == 1:
+            break
+    print('period: ', period)
+    n %= period
+    previous = 0
+    current = 1
 
     for _ in range(n - 1):
-        previous, current = current % m, (previous + current) % m
+        previous, current = current, (previous + current) % m
 
     return current
 
