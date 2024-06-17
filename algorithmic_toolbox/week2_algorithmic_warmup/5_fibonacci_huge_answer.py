@@ -11,7 +11,6 @@ def fibonacci_huge_naive(n, m):
         period += 1
         if previous % m == 0 and current % m == 1:
             break
-    print('period: ', period)
     n %= period
     previous = 0
     current = 1
