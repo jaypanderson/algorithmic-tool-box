@@ -30,6 +30,10 @@ def fibonacci_sum(n):
 
 
 def fibonacci_partial_sum_naive(from_, to):
+    if from_ == 0:
+        return fibonacci_sum(to)
+    if to == 0:
+        return 0
 
     return (fibonacci_sum(to) - fibonacci_sum(from_ - 1)) % 10
 
