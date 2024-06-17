@@ -6,7 +6,7 @@ def fibonacci_huge_naive(n, m):
     current  = 1
 
     for _ in range(n - 1):
-        previous, current = current, (previous + current) % m
+        previous, current = current % m, (previous + current) % m
 
     return current
 
