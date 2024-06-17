@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7377a7-4aec-4bf2-bf2d-14f503ee034a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/algorithmic_toolbox/week2_algorithmic_warmup/5_fibonacci_huge_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic_toolbox/week2_algorithmic_warmup/5_fibonacci_huge_answer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic_toolbox/week2_algorithmic_warmup/6_fibonacci_sum_last_digit_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic_toolbox/week2_algorithmic_warmup/6_fibonacci_sum_last_digit_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week2_algorithmic_warmup/7_fibonacci_partial_sum_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
