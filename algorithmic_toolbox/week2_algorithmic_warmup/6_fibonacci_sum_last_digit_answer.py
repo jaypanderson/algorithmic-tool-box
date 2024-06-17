@@ -7,8 +7,8 @@ def fibonacci_sum(n):
 
     for _ in range(n - 1):
         previous, current = current, (previous + current) % 10
-        _sum = current + _sum
-        print(_sum)
+        _sum = (current + _sum) % 10
+        #print(_sum)
 
     return _sum
 
