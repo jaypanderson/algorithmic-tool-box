@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7377a7-4aec-4bf2-bf2d-14f503ee034a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/1_money_change_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/2_maximum_value_of_the_loot_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/2_maximum_value_of_the_loot_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/3_car_fueling_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/3_car_fueling_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/4_maximum_advertisement_revenue_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/5_collecting_signatures_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/6_maximum_number_of_prizes_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_answer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -32,11 +42,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.2_maximum_value_of_the_loot_test.executor": "Debug",
     "Python.5_fibonacci_huge_answer.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Ryan/PycharmProjects/data_structures_and_algorithm/algorithmic_toolbox/week2_algorithmic_warmup",
+    "last_opened_file_path": "C:/Users/Ryan/PycharmProjects/data_structures_and_algorithm/algorithmic_toolbox/week3_greedy_algorithms",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
   }
 }]]></component>
