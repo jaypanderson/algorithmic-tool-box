@@ -10,7 +10,7 @@ def min_refills(distance, tank, stops):
     while i < len(stops):
         if prev is None and stops[i] - dist > tank:
             return -1
-        elif stops[i] - dist < tank:
+        elif stops[i] - dist <= tank:
             prev = stops[i]
             i += 1
         else:
@@ -30,6 +30,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(min_refills(10, 3, [1, 2, 5, 9]), -1)  # add assertion here
         self.assertEqual(min_refills(200, 250, [100, 150]), 0)  # add assertion here
         self.assertEqual(min_refills(700, 200, [100, 200, 300, 400]), -1)  # add assertion here
+        self.assertEqual(min_refills(500, 200, [100, 200, 300, 400]), 2)  # add assertion here
+
 
 
 if __name__ == '__main__':

@@ -10,7 +10,7 @@ def min_refills(distance, tank, stops):
     while i < len(stops):
         if prev is None and stops[i] - dist > tank:
             return -1
-        elif stops[i] - dist < tank:
+        elif stops[i] - dist <= tank:
             prev = stops[i]
             i += 1
         else:
