@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7377a7-4aec-4bf2-bf2d-14f503ee034a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/1_money_change_answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/2_maximum_value_of_the_loot_answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/2_maximum_value_of_the_loot_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/3_car_fueling_answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/3_car_fueling_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/4_maximum_advertisement_revenue_answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/5_collecting_signatures_answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/6_maximum_number_of_prizes_answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_answer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/3_car_fueling_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/3_car_fueling_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.2_maximum_value_of_the_loot_test.executor": "Debug",
+    "Python.3_car_fueling_test.executor": "Debug",
     "Python.5_fibonacci_huge_answer.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -56,6 +49,7 @@
       <recent name="C:\Users\Ryan\PycharmProjects\work_projects\venv\transfer_meal_schedule\algorithmic-tool-box" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryan\PycharmProjects\data_structures_and_algorithm\algorithmic_toolbox\week3_greedy_algorithms" />
       <recent name="C:\Users\Ryan\PycharmProjects\data_structures_and_algorithm\algorithmic_toolbox\week2_algorithmic_warmup" />
       <recent name="C:\Users\Ryan\PycharmProjects" />
     </key>
@@ -118,5 +112,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/3_car_fueling_test.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

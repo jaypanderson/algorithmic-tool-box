@@ -3,18 +3,23 @@ from sys import stdin
 
 def min_refills(distance, tank, stops):
     stops.append(distance)
-    cur = 0
+    dist = 0
     prev = None
     refills = 0
-    for stop in stops:
-        if prev is None and stop - cur > tank:
+    i = 0
+    while i < len(stops):
+        if prev is None and stops[i] - dist > tank:
             return -1
-        elif stop - cur > tank:
-            cur = prev
-            prev = None
-            refills += 1
+        elif stops[i] - dist < tank:
+            prev = stops[i]
+            i += 1
         else:
-            prev = stop
+            if stops[i] - prev > tank:
+                return -1
+            else:
+                dist = prev
+                prev = stops[i]
+                refills += 1
 
     return refills
 
