@@ -1,7 +1,5 @@
-from sys import stdin
-from collections import namedtuple
+import unittest
 
-Segment = namedtuple('Segment', 'start end')
 
 def optimal_points(segments):
     segments.sort(key=lambda x: x[1], reverse=True)
@@ -24,10 +22,10 @@ def optimal_points(segments):
     return points
 
 
+class MyTestCase(unittest.TestCase):
+    def test_something(self):
+        self.assertEqual(optimal_points([[1, 3], [2, 5], [3, 6]]), [3])  # add assertion here
+        self.assertEqual(optimal_points([[4, 7], [1, 3], [2, 5], [5, 6]]), [3, 6])
+
 if __name__ == '__main__':
-    input = stdin.read()
-    n, *data = map(int, input.split())
-    segments = list(map(lambda x: Segment(x[0], x[1]), zip(data[::2], data[1::2])))
-    points = optimal_points(segments)
-    print(len(points))
-    print(*points)
+    unittest.main()
