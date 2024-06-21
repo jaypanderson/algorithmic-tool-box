@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7377a7-4aec-4bf2-bf2d-14f503ee034a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/6_maximum_number_of_prizes_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/6_maximum_number_of_prizes_answer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_answer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_test.py</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
