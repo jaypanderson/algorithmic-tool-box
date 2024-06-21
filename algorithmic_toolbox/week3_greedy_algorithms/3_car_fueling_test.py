@@ -3,23 +3,16 @@ import unittest
 
 def min_refills(distance, tank, stops):
     stops.append(distance)
-    dist = 0
-    prev = None
+    if stops[0] > tank:
+        return -1
     refills = 0
-    i = 0
-    while i < len(stops):
-        if prev is None and stops[i] - dist > tank:
-            return -1
-        elif stops[i] - dist <= tank:
-            prev = stops[i]
-            i += 1
-        else:
-            if stops[i] - prev > tank:
+    cur = tank
+    for i, stop in enumerate(stops):
+        if stop > cur:
+            if stop > tank + stops[i-1]:
                 return -1
-            else:
-                dist = prev
-                prev = stops[i]
-                refills += 1
+            cur = stops[i-1] + tank
+            refills += 1
 
     return refills
 
