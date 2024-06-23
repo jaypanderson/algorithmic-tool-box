@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a7377a7-4aec-4bf2-bf2d-14f503ee034a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/6_maximum_number_of_prizes_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/6_maximum_number_of_prizes_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_answer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +39,17 @@
     "Python.3_car_fueling_test.executor": "Debug",
     "Python.5_fibonacci_huge_answer.executor": "Run",
     "Python.7_maximum_salary_test.executor": "Debug",
+    "Python.scratch_9.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Ryan/PycharmProjects/data_structures_and_algorithm/algorithmic_toolbox/week3_greedy_algorithms",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -127,6 +133,11 @@
           <url>file://$PROJECT_DIR$/algorithmic_toolbox/week3_greedy_algorithms/7_maximum_salary_test.py</url>
           <line>28</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
