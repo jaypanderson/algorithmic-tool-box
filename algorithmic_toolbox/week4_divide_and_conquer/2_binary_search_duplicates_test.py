@@ -38,6 +38,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(binary_search([2, 2, 4, 4, 8, 8], 8), 4)
         self.assertEqual(binary_search([2, 2, 4, 4, 8], 1), -1)
         self.assertEqual(binary_search([2, 2, 4, 4, 8], 0), -1)
+        self.assertEqual(binary_search([2, 2, 2, 4, 4, 4, 4, 4, 4, 4, 8], 4), 3)
 
     def test_1(self):
         self.assertEqual(binary_search([2, 4, 4, 4, 7, 7, 9], 9), 6)
