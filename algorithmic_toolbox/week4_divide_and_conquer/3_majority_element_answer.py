@@ -1,6 +1,10 @@
+from collections import Counter
+
+
 def majority_element_naive(elements):
+    count = Counter(elements)
     for e in elements:
-        if elements.count(e) > len(elements) / 2:
+        if count[e] > len(elements) / 2:
             return 1
 
     return 0
