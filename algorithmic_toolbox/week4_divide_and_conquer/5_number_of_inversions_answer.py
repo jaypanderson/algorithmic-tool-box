@@ -1,12 +1,34 @@
 from itertools import combinations
+from collections import deque
+
+def merge_sort(nums, inversions):
+    if len(nums) <= 1:
+        return nums
+    mid = (len(nums) - 1) // 2
+    left = deque(merge_sort(nums[:mid], inversions))
+    right = deque(merge_sort(nums[mid:], inversions))
+    new = []
+    while left and right:
+        if left[0] < right[0]:
+            new.append(left.popleft())
+        else:
+            new.append((right.popleft()))
+    new += left + right
 
 
-def inversions_naive(a):
-    number_of_inversions = 0
-    for i, j in combinations(range(len(a)), 2):
-        if a[i] > a[j]:
-            number_of_inversions += 1
-    return number_of_inversions
+
+
+
+
+
+def inversions_naive(nums):
+    inversions = [0]
+    merge_sort(nums, inversions)
+
+
+
+
+
 
 
 if __name__ == '__main__':
