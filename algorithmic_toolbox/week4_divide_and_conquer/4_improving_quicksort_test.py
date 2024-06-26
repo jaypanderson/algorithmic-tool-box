@@ -28,7 +28,6 @@ def randomized_quick_sort(array, left, right):
     if left >= right:
         return
     k = randint(left, right)
-    print(k)
     array[left], array[k] = array[k], array[left]
     m1, m2 = partition3(array, left, right)
     randomized_quick_sort(array, left, m1 - 1)

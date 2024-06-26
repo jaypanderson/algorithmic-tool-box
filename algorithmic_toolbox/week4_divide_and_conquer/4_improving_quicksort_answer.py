@@ -2,28 +2,25 @@ from random import randint
 
 
 def partition3(array, left, right):
-    rand = left
+    pivot = array[left]
     m1 = left
     m2 = left
-    for i in range(left + 1, right):
-        if array[i] == array[rand]:
-            rand += 1
+    over = False
+    for i in range(left + 1, right + 1):
+        if array[i] == pivot:
+            m2 += 1
+            array[m2], array[i] = array[i], array[m2]
+        elif array[i] < pivot:
             m1 += 1
             m2 += 1
-            array[m1], array[i] = array[i], array[m1]
-            array[rand], array[m1] = array[m1], array[rand]
-        elif array[i] < array[rand]:
-            m1 += 1
-            m2 += 1
-            array[m1], array[i] = array[i], array[m1]
+            if over:
+                array[m2], array[i] = array[i], array[m2]
+                array[m1 - 1], array[m2] = array[m2], array[m1 - 1]
+            else:
+                array[m1 - 1], array[i] = array[i], array[m1 - 1]
         else:
-            m2 += 1
-
-    count = m1 - rand
-    for i in range(left, left+count):
-        array[i], array[i + count] = array[i + count], array[i]
-
-    return rand - count, m1
+            over = True
+    return m1, m2
 
 
 def randomized_quick_sort(array, left, right):
@@ -34,6 +31,7 @@ def randomized_quick_sort(array, left, right):
     m1, m2 = partition3(array, left, right)
     randomized_quick_sort(array, left, m1 - 1)
     randomized_quick_sort(array, m2 + 1, right)
+    return array
 
 
 if __name__ == '__main__':
