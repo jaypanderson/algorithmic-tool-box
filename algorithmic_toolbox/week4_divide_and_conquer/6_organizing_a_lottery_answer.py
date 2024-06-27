@@ -2,15 +2,26 @@ from sys import stdin
 
 
 def points_cover_naive(starts, ends, points):
-    assert len(starts) == len(ends)
-    count = [0] * len(points)
+    dic = {}
 
-    for index, point in enumerate(points):
-        for start, end in zip(starts, ends):
-            if start <= point <= end:
-                count[index] += 1
+    for start, end in zip(starts, ends):
+        for i in range(start, end + 1):
+            dic[i] = dic.get(i, 0) + 1
+
+    count = [0] * len(points)
+    for i, point in enumerate(points):
+        count[i] = dic.get(point, 0)
 
     return count
+
+
+    # assert len(starts) == len(ends)
+    # count = [0] * len(points)
+    #
+    # for index, point in enumerate(points):
+    #     for start, end in zip(starts, ends):
+    #         if start <= point <= end:
+    #             count[index] += 1
 
 
 if __name__ == '__main__':
