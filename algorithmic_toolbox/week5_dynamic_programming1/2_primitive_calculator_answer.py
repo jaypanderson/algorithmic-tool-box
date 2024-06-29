@@ -1,28 +1,25 @@
 def compute_operations(n):
     dp = [0] * (n + 1)
-    ops = [[], []]
-    operators = [['1', '-'], ['2', '/'], ['3', '/']]
+    ops = ['', '']
+    operators = ['-1', '/2', '/3']
     for i in range(2, n + 1):
         mini = float('inf')
         cur_op = None
-        for num, op in operators:
-            temp = eval(str(i) + op + num)
+        for operator in operators:
+            temp = eval(str(i) + operator)
             if temp >= 0 and temp == int(temp) and dp[int(temp)] < mini:
                 mini = dp[int(temp)]
-                cur_op = [num, op]
+                cur_op = operator
         ops.append(cur_op)
         dp[i] = mini + 1
 
     cur = n
     ans = [n]
     while ops[cur]:
-        num, op = ops[cur]
-        cur = int(eval(str(cur) + op + num))
+        cur = int(eval(str(cur) + ops[cur]))
         ans.append(cur)
 
     return ans[::-1]
-
-# [[0, 1], [,]]
 
 
 if __name__ == '__main__':
